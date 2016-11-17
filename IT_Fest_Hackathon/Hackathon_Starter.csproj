@@ -65,6 +65,10 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="RestSharp, Version=105.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.2\lib\net45\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SendGrid, Version=6.3.4.0, Culture=neutral, PublicKeyToken=4f047e93159395ca, processorArchitecture=MSIL">
       <HintPath>..\packages\Sendgrid.6.3.4\lib\SendGrid.dll</HintPath>
       <Private>True</Private>
@@ -100,6 +104,10 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Twilio.Api, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Twilio.4.7.2\lib\3.5\Twilio.Api.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -109,8 +117,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controllers\EncryptionController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="External\SendGrid\Controllers\EmailController.cs" />
+    <Compile Include="External\SendGrid\Models\SendGridCredentials.cs" />
+    <Compile Include="External\Twilio\Controllers\SMSController.cs" />
+    <Compile Include="External\Twilio\Models\TwilioCredentials.cs" />
     <Compile Include="Models\Class.cs" />
+    <Compile Include="Models\Strings.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\SchoolContext.cs" />
     <Compile Include="Views\LoginView.xaml.cs">
@@ -162,6 +176,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets\" />
     <Folder Include="Views\Components\" />
   </ItemGroup>
   <ItemGroup>
