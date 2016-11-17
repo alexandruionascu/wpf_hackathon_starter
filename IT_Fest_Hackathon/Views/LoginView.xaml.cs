@@ -1,5 +1,6 @@
 ﻿using IT_Fest_Hackathon.Controllers;
 using IT_Fest_Hackathon.Models;
+using IT_Fest_Hackathon.Domain.SendGrid;
 using System;
 using System.Collections.Generic;
 using System.Linq;

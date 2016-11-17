@@ -1,9 +1,6 @@
 ﻿using IT_Fest_Hackathon.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IT_Fest_Hackathon.Controllers
 {
