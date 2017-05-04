@@ -53,3 +53,27 @@ C:\Users\aaa\Desktop\ITFEST\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debu
 C:\Users\aaa\Desktop\ITFEST\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\SendGrid.dll
 C:\Users\aaa\Desktop\ITFEST\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\SendGrid.SmtpApi.dll
 C:\Users\aaa\Desktop\ITFEST\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\SendGridMail.dll
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\IT_Fest_Hackathon.exe.config
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\IT_Fest_Hackathon.exe
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\IT_Fest_Hackathon.pdb
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\Hackathon_Starter.csprojResolveAssemblyReference.cache
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\MainWindow.baml
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\Views\LoginView.baml
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\App.baml
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\MainWindow.g.cs
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\Views\LoginView.g.cs
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\App.g.cs
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\IT_Fest_Hackathon_MarkupCompile.cache
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\IT_Fest_Hackathon.g.resources
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\IT_Fest_Hackathon.Properties.Resources.resources
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\obj\Debug\Hackathon_Starter.csproj.GenerateResource.Cache
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\IT_Fest_Hackathon.exe
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\IT_Fest_Hackathon.pdb
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\EntityFramework.dll
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\MaterialDesignColors.dll
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\EntityFramework.xml
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\faraonul\Documents\Visual Studio 2015\Desktop_Hackathon_Starter\IT_Fest_Hackathon\bin\Debug\MaterialDesignThemes.Wpf.xml

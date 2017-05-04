@@ -5,19 +5,24 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             d:DesignHeight="300" d:DesignWidth="300"
+             Width="800" Height="600"
              Background="{DynamicResource MaterialDesignPaper}"
              FontFamily="{DynamicResource MaterialDesignFont}">
     <Grid>
-        <materialDesign:Card Padding="32" Margin="16">
-            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">Login View</TextBlock>
-        </materialDesign:Card>
-        <RichTextBox Name="dbData" HorizontalAlignment="Left" Height="100" Margin="58,141,0,0" VerticalAlignment="Top" Width="100">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="RichTextBox"/>
-                </Paragraph>
-            </FlowDocument>
-        </RichTextBox>
+        <materialDesign:Transitioner SelectedIndex="0">
+            <Button Content="BOSS" />
+            <materialDesign:TransitionerSlide OpeningEffect="{materialDesign:TransitionEffect FadeIn}">
+                <Button Content="AAA" />
+            </materialDesign:TransitionerSlide>
+            <materialDesign:TransitionerSlide OpeningEffect="{materialDesign:TransitionEffect FadeIn}">
+                <Button Content="TTT" />
+            </materialDesign:TransitionerSlide>
+        </materialDesign:Transitioner>
+
+        <Button  Command="{x:Static materialDesign:Transitioner.MoveNextCommand}" Margin="-10,344,10,224">
+            NEXT
+        </Button>
+
     </Grid>
+    
 </UserControl>

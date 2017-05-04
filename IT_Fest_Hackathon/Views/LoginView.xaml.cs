@@ -41,39 +41,9 @@ namespace IT_Fest_Hackathon.Views
             student.classes.Add(history);
             student.classes.Add(math);
 
-            studentController.addStudent(student);
-            MessageBox.Show(studentController.count().ToString());
-
-            foreach(var s in studentController.getStudents())
-            {
-                dbData.AppendText(s.name + "\n");
-            }
+           
         }
 
-        protected bool isInputValid()
-        {
-            try
-            {
-                var username = "user";  //usernameTextBox.Text
-                var password = "pass";  //passwordTextBox.Text
-
-                var usernameRegex = @"^[a-zA-Z][a-zA-Z0-9_]{5,15}$";
-                var matchUsername = new Regex(usernameRegex);
-
-                var passwordRegex = @"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$";
-                var matchPassword = new Regex(passwordRegex);
-
-                if (username == password || !matchUsername.IsMatch(username) || !matchPassword.IsMatch(password))
-                {
-                    return false;
-                }
-
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        } 
+       
     }
 }
